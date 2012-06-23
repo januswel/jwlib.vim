@@ -1,13 +1,11 @@
 " vim autoload file
 " Filename:     unicode.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" Last Change:  2010 Jan 04.
-" Version:      0.40
 " Dependency:
 "   This script needs following files
 "
 "   autoload/jwlib/unicode/namelist.vim
-"   http://github.com/januswel/dotfiles/blob/master/vimfiles/autoload/jwlib/unicode/namelist.vim
+"   https://github.com/januswel/jwlib/blob/master/autoload/unicode/namelist.vim
 "
 " Refer:
 "   * http://d.hatena.ne.jp/krogue/20080616/1213590577

@@ -1,13 +1,11 @@
 " vim autoload file
 " Filename:     xterm256.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" Last Change:  2010 Jan 03.
-" Version:      0.25
 " Dependency:
 "   This plugin needs following files
 "
-"   autoload/jwlib/color/rgb.vim
-"   http://github.com/januswel/dotfiles/blob/master/vimfiles/autoload/jwlib/color/rgb.vim
+"   jwlib/autoload/color/rgb.vim
+"   https://github.com/januswel/jwlib/blob/master/autoload/color/xterm256.vim
 "
 " Refer:
 "   http://d.hatena.ne.jp/kakurasan/20080701/p1
