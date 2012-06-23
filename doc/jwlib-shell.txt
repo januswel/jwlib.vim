@@ -1,5 +1,4 @@
 *jwlib-shell.txt*	Autoload script about shell
-                                                Last change: 2010 Jan 05.
 
 SYNOPSIS						*jwlib-shell-synopsis*
 >
@@ -50,7 +49,7 @@ jwlib#shell#GetEncoding([{expr}])
 Author
 	janus_wel <janus.wel.3@gmail.com>
 Copyright
-	(c) 2010 by janus_wel
+	(c) 2010-2012 by janus_wel
 License
 	This material may be distributed only subject to the terms and
 	conditions set forth in the Open Publication License, v1.0 or later

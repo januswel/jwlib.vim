@@ -1,5 +1,4 @@
 *jwlib-color.txt*	Autoload script about color
-                                                Last change: 2010 Jan 03.
 
 SYNOPSIS						*jwlib-color-synopsis*
 >
@@ -120,7 +119,7 @@ jwlib#color#xterm256#RGB2Nr({somethinglikeRGB})
 Author
 	janus_wel <janus.wel.3@gmail.com>
 Copyright
-	(c) 2010 by janus_wel
+	(c) 2010-2012 by janus_wel
 License
 	This material may be distributed only subject to the terms and
 	conditions set forth in the Open Publication License, v1.0 or later
