@@ -1,4 +1,4 @@
-*jwlib-tabline.txt*	Autoload script about tabline
+*jwlib-tabline*	Autoload script about tabline
 
 SYNOPSIS					*jwlib-tabline-synopsis*
 >

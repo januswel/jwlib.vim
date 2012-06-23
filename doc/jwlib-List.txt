@@ -1,4 +1,4 @@
-*jwlib-List.txt*	Autoload scripts about List
+*jwlib-List*	Autoload scripts about List
 
 SYNOPSIS						*jwlib-List-synopsis*
 >

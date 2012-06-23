@@ -1,4 +1,4 @@
-*jwlib-shell.txt*	Autoload script about shell
+*jwlib-shell*	Autoload script about shell
 
 SYNOPSIS						*jwlib-shell-synopsis*
 >

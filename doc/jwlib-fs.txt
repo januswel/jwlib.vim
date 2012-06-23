@@ -1,4 +1,4 @@
-*jwlib-fs.txt*	Autoload script about filesystem
+*jwlib-fs*	Autoload script about filesystem
 
 SYNOPSIS						*jwlib-fs-synopsis*
 >

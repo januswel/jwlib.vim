@@ -1,4 +1,4 @@
-*jwlib-profile.txt*	Autoload script about profiling
+*jwlib-profile*	Autoload script about profiling
 
 SYNOPSIS					*jwlib-profile-synopsis*
 >

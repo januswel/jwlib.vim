@@ -1,4 +1,4 @@
-*jwlib-buf.txt*	Autoload scripts about buffer
+*jwlib-buf*	Autoload scripts about buffer
 
 SYNOPSIS						*jwlib-buf-synopsis*
 >

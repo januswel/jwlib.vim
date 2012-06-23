@@ -1,4 +1,4 @@
-*jwlib-Dictionary.txt*	Plugin for showing example
+*jwlib-Dictionary*	Plugin for showing example
 
 SYNOPSIS					*jwlib-Dictionary-synopsis*
 >

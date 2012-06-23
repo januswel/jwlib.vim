@@ -1,4 +1,4 @@
-*jwlib.txt*	Autoload scripts by janus_wel
+*jwlib*	Autoload scripts by janus_wel
 
 DESCRIPTION						*jwlib-description*
 

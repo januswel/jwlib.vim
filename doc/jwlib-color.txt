@@ -1,4 +1,4 @@
-*jwlib-color.txt*	Autoload script about color
+*jwlib-color*	Autoload script about color
 
 SYNOPSIS						*jwlib-color-synopsis*
 >
