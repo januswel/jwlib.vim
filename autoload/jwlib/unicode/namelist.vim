@@ -1,7 +1,7 @@
 " vim autoload file
 " Filename:     namelist.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" Remark:
+" Remarks:
 "   This file is built from UnicodeData.txt
 "   http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
 " License:      MIT License {{{1
