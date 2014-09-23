@@ -61,6 +61,29 @@ function! jwlib#shell#GetEncoding(...) " {{{3
     return &encoding
 endfunction
 
+function! jwlib#shell#ShellFriendly(path) " {{{3
+    let save_shellslash = &shellslash
+    if jwlib#shell#GetType() ==# 'cmd'
+        set noshellslash
+    else
+        set shellslash
+    endif
+
+    try
+        let fullpath = fnamemodify(a:path, ':p')
+        if has('multi_byte')
+            let fullpath = iconv(
+                    \   fullpath,
+                    \   &encoding,
+                    \   jwlib#shell#GetEncoding()
+                    \ )
+        endif
+        return shellescape(fullpath)
+    finally
+        let &shellslash = save_shellslash
+    endtry
+endfunction
+
 " post-processings {{{1
 " restore the value of 'cpoptions'
 let &cpoptions = s:save_cpoptions
