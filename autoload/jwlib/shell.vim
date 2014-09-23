@@ -23,8 +23,7 @@ let s:shelltypes = [
 lockvar s:shelltypes
 
 " functions {{{2
-" return string
-function! jwlib#shell#GetType()
+function! jwlib#shell#GetType() " {{{3
     for [type, pattern] in s:shelltypes
         if &shell =~? pattern
             return type
@@ -35,8 +34,7 @@ function! jwlib#shell#GetType()
     return
 endfunction
 
-" get default encoding of shell
-function! jwlib#shell#GetEncoding(...)
+function! jwlib#shell#GetEncoding(...) " {{{3
     " heuristic
     if jwlib#shell#GetType() ==# 'cmd'
         return 'cp932'
