@@ -1,4 +1,4 @@
-*jwlib-shell*	Autoload script about shell
+*jwlib-shell*	Autoload script to get along with shell
 
 SYNOPSIS						*jwlib-shell-synopsis*
 >
@@ -23,7 +23,7 @@ PROVIDES						*jwlib-shell-provides*
 
 Functions:
 jwlib#shell#GetType()
-	Return a String to show type of the 'shell'.  All of returned values
+	Returns a String to show type of the 'shell'.  All of returned values
 	are listed below.
 
 	value	meaning ~
@@ -33,7 +33,7 @@ jwlib#shell#GetType()
 	sh	Bourne Shell or Bourne-Again Shell
 
 jwlib#shell#GetEncoding([{expr}])
-	Return a String to show encoding used by the 'shell'.  When there is
+	Returns a String to show encoding used by the 'shell'.  When there is
 	{expr} and its evaluated value is true, this function may use a risky
 	method to get more exact value.  In particular, changing 'encoding'
 	may happen internally, and this processing may have side effects.
