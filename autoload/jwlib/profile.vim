@@ -1,9 +1,9 @@
 " vim autoload file
 " Filename:     profile.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" License:      New BSD License {{{1
+" License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
-"   http://github.com/januswel/dotfiles/vimfiles/LICENSE
+"   https://github.com/januswel/jwlib.vim/blob/master/LICENSE
 
 " preparations {{{1
 " check vim has required features

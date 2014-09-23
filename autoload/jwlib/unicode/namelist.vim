@@ -4,10 +4,9 @@
 " Remark:
 "   This file is built from UnicodeData.txt
 "   http://www.unicode.org/Public/UNIDATA/UnicodeData.txt
-"
-" License:      New BSD License {{{1
+" License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
-"   http://github.com/januswel/dotfiles/vimfiles/LICENSE
+"   https://github.com/januswel/jwlib.vim/blob/master/LICENSE
 
 " preparations {{{1
 " reset the value of 'cpoptions' for portability

@@ -11,9 +11,9 @@
 "   * http://d.hatena.ne.jp/krogue/20080616/1213590577
 "   * http://homepage1.nifty.com/nomenclator/unicode/ucs_utf.htm
 "
-" License:      New BSD License {{{1
+" License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
-"   http://github.com/januswel/dotfiles/vimfiles/LICENSE
+"   https://github.com/januswel/jwlib.vim/blob/master/LICENSE
 
 " preparation {{{1
 " check vim has the required feature

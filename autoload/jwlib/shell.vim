@@ -1,10 +1,10 @@
 " vim autoload file
 " Filename:     shell.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" License:      New BSD License {{{1
+" License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
-"   http://github.com/januswel/dotfiles/vimfiles/LICENSE
-"
+"   https://github.com/januswel/jwlib.vim/blob/master/LICENSE
+
 " preparations {{{1
 " reset the value of 'cpoptions' for portability
 let s:save_cpoptions = &cpoptions

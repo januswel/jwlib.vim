@@ -11,9 +11,9 @@
 "   http://d.hatena.ne.jp/kakurasan/20080701/p1
 "   http://d.hatena.ne.jp/kakurasan/20080703
 "
-" License:      New BSD License {{{1
+" License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
-"   http://github.com/januswel/dotfiles/vimfiles/LICENSE
+"   https://github.com/januswel/jwlib.vim/blob/master/LICENSE
 
 " preparations {{{1
 " reset the value of 'cpoptions' for portability
