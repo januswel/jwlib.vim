@@ -1,16 +1,14 @@
 " vim autoload file
 " Filename:     unicode.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" Dependency:
-"   This script needs following files
-"
-"   autoload/jwlib/unicode/namelist.vim
-"   https://github.com/januswel/jwlib/blob/master/autoload/unicode/namelist.vim
-"
 " Refer:
 "   * http://d.hatena.ne.jp/krogue/20080616/1213590577
 "   * http://homepage1.nifty.com/nomenclator/unicode/ucs_utf.htm
+" Dependencies: {{{1
+"   This script needs following files
 "
+"   - https://github.com/januswel/jwlib.git
+"       - autoload/jwlib/unicode/namelist.vim
 " License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
 "   https://github.com/januswel/jwlib.vim/blob/master/LICENSE

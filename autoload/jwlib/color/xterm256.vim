@@ -1,16 +1,14 @@
 " vim autoload file
 " Filename:     xterm256.vim
 " Maintainer:   janus_wel <janus.wel.3@gmail.com>
-" Dependency:
-"   This plugin needs following files
-"
-"   jwlib/autoload/color/rgb.vim
-"   https://github.com/januswel/jwlib/blob/master/autoload/color/xterm256.vim
-"
 " Refer:
 "   http://d.hatena.ne.jp/kakurasan/20080701/p1
 "   http://d.hatena.ne.jp/kakurasan/20080703
+" Dependencies: {{{1
+"   This plugin needs following files
 "
+"   - https://github.com/januswel/jwlib.git
+"       - autoload/jwlib/color/rgb.vim
 " License:      MIT License {{{1
 "   See under URL.  Note that redistribution is permitted with LICENSE.
 "   https://github.com/januswel/jwlib.vim/blob/master/LICENSE
