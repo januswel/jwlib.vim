@@ -33,6 +33,18 @@ function! jwlib#buf#IsNormalType() " {{{3
     return 0
 endfunction
 
+function! jwlib#buf#GetVisualHighlighted() " {{{3
+    let save_reg_z = @z
+    silent normal! gv"zy
+    let result = @z
+    let @z = save_reg_z
+
+    return result
+endfunction
+
+function! jwlib#buf#SetVisualHighlighted(r) " {{{3
+    normal! gv"_c=a:r
+endfunction
 
 " post-processings {{{1
 " restore the value of 'cpoptions'

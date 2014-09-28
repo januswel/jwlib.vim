@@ -34,8 +34,8 @@ endfunction
 
 function! jwlib#buf#replace#VisualHighlighted(func, ...)
     let args = [
-                \ function('s:GetVisualHighlighted'),
-                \ function('s:SetVisualHighlighted'),
+                \ function('jwlib#buf#GetVisualHighlighted'),
+                \ function('jwlib#buf#SetVisualHighlighted'),
                 \ a:func
                 \ ]
     let args += a:000
@@ -106,19 +106,6 @@ function! s:SetCWORD(r)
     normal! "_ciW=a:r
 endfunction
 
-" for jwlib#buf#replace#VisualHighlighted()
-function! s:GetVisualHighlighted()
-    let save_reg_z = @z
-    normal! gv"zy
-    let result = @z
-    let @z = save_reg_z
-
-    return result
-endfunction
-
-function! s:SetVisualHighlighted(r)
-    normal! gv"_c=a:r
-endfunction
 
 " post-processings {{{1
 " restore the value of 'cpoptions'
