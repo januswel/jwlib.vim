@@ -12,24 +12,21 @@ set cpoptions&vim
 
 " main {{{1
 " functions {{{2
-" return bool
-function! jwlib#buf#IsEmpty()
+function! jwlib#buf#IsEmpty() " {{{3
     if line('$') ==# 1 && empty(getline(1))
         return 1
     endif
     return 0
 endfunction
 
-" return bool
-function! jwlib#buf#IsModifiable()
+function! jwlib#buf#IsModifiable() " {{{3
     if &modifiable && !&readonly
         return 1
     endif
     return 0
 endfunction
 
-" return bool
-function! jwlib#buf#IsNormalType()
+function! jwlib#buf#IsNormalType() " {{{3
     if empty(&buftype)
         return 1
     endif
