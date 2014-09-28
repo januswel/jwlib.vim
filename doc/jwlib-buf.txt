@@ -13,6 +13,9 @@ SYNOPSIS						*jwlib-buf-synopsis*
 	endfunction
 	call jwlib#buf#replace#Char(function('Tuck'), '<target>', '%')
 
+	" gets the highlighted region in last visual mode
+	let highlighted = jwlib#buf#GetVisualHighlighted()
+
 DESCRIPTION 					*jwlib-buf-description*
 
 Autoload scripts about buffer.  Here there are descriptions its name start
@@ -43,6 +46,12 @@ jwlib#buf#IsNormalType()
 	When 'buftype' of the current buffer has no value, that is normal
 	type, return non-zero.  Otherwise return zero.
 	This function is contained in autoload/jwlib/buf.vim.
+
+jwlib#buf#GetVisualHighlighted()
+	Returns the highlighted region in the last visual mode.
+
+jwlib#buf#SetVisualHighlighted({text})
+	Replaces the highlighted region in the last visual mode to {text}.
 
 							*jwlib-buf-replace*
 jwlib#buf#replace#Char({Funcref}[, {arg1}, ...])
